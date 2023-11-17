@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Courier+Prime:wght@400;700 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier','Poppins',Arial, Helvetica, sans-serif;
+}
+  
+#chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  height: 80vh;
+  overflow: hidden;
+  margin: 80px auto;
+    
+}
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  background: #100c2a;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+
+}
+.t2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+
+.title h1{
+  font-size: 70px;
+  color: white;
+}
+
+.t2 h2{
+  font-size: 70px;
+  color: white;
+}
+
+
+/* ... Tu código CSS existente ... */
+/* ... Tu código CSS existente ... */
+
+.boton-tono {
+  position: relative;
+  overflow: hidden;
+  background-color: white;  /* Fondo blanco */
+  color: #333;
+  border: 2px solid #333;
+  padding: 20px; /* Aumenta el padding para hacer el botón más grande */
+  margin: 10px;
+  border-radius: 50%; /* Haz el botón redondo */
+  transition: background-color 0.3s, transform 0.3s, opacity 0.3s;
+  width: 220px; 
+  height: 220px;
+  cursor: pointer;
+  font-family: 'Courier','Poppins';
+  font-weight: 700;
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+
+}
+
+.boton-imagen {
+  position: absolute;
+  top: 50%; /* Alinea la imagen verticalmente al centro */
+  left: 50%; /* Alinea la imagen horizontalmente al centro */
+  width: 240px; /* Ajusta el tamaño de la imagen */
+  height: 240px;
+  transform: translate(-50%, -50%); /* Centra la imagen completamente */
+  display: none;  /* Inicialmente oculta */
+  background-repeat: no-repeat;background-size: cover;
+}
+
+.boton-tono:hover {
+  background-color: #100c2a;
+  color: #100c2a;
+  transform: scale(1.1); /* Hace el botón un poco más grande al pasar el mouse */
+  /* opacity: 0.8; */
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+
+}
+
+.boton-tono:hover .boton-imagen {
+  display: block;
+  transition: 0.3s ease-in-out;
+    /* Muestra cuando se pasa el mouse */
+}
+
+/* ... Otro código CSS existente ... */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn a{
+  background-color: #100c2a;
+  text-decoration: none;
+  color: greenyellow;
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  
+  font-weight: 700;
+}
+.dropdown-btn a:hover{
+  font-size: 35px;
+  transition: 0.3s ease-in-out;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+

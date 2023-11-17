@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+   /* Nueva regla CSS para el cambio de color */
+   .number-button {
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+
+  .number-button:hover {
+    background-color: hsl(240 + ((var(--index) - 1) * (120 / 149)), 100%, 50%);
+  }
